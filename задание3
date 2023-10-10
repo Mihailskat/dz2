@@ -1,0 +1,10 @@
+print('Введите координаты: ')
+x = int(input())
+y = int(input())
+
+if (x+y)%2==0:
+  print('NO')
+elif x>8 or y>8:
+  print('Нет такой клетки! ')
+else: 
+  print('YES')
